@@ -10,25 +10,36 @@ import random
 #allow user to set boundaries
 highValue = int(input("highest number you wish to work with"))
 lowValue = int(input("lowest number you wish to work with"))
-
-#create multiple math question with answer
 qn_no = int(input("How many questions would you like generated?"))
 
-for qn in range(qn_no):
-    #generate random integers using user input
-    num1 = random.randint (lowValue, highValue)
-    num2 = random.randint (lowValue, highValue)
+#create multiple math question with answer
+def question(qn_no):
+    for qn in range(qn_no):
+        #generate random integers using user input
+        num1 = random.randint (lowValue, highValue)
+        num2 = random.randint (lowValue, highValue)
 
-    #logic to generate questions and answers
-    if num1>num2:
-        print(num1, "-", num2, "=",)
-        sys_ans = num1-num2
-        print (sys_ans)
-    
-    else:
-        print(num1, "+", num2, "=",)
-        sys_ans = num1+num2
-        print (sys_ans)
+        #logic to generate questions and answers
+        if num1>num2:
+            print(num1, "-", num2, "=",)
+            sys_ans = num1-num2
+            answer(sys_ans)
+        
+        else:
+            print(num1, "+", num2, "=",)
+            sys_ans = num1+num2
+            answer(sys_ans)
 
 #let user input answers, match answers to logic
-#usr_ans = int(input ("Input answer")
+def answer(sys_ans):
+    usr_ans = int(input ("Input Answer:"))
+    while usr_ans != sys_ans:
+        print("Incorrect Answer. Try Again or Press 'Q' to Quit")
+        usr_ans = input ("Input Answer:")
+    
+    #if usr_ans.upper == "Q": #Quit
+        #print("You have closed the Programme. Goodbye")
+        #exit()
+
+#run Programme
+question(qn_no)
