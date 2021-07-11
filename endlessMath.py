@@ -33,9 +33,12 @@ def question(qn_no):
 #let user input answers, match answers to logic
 def answer(sys_ans):
     usr_ans = int(input ("Input your Answer:"))
-    while usr_ans != sys_ans:
+    if usr_ans != sys_ans:
         print("Incorrect Answer. Try Again")
         usr_ans = input ("Input Answer:")
+
+    else:
+        return True
     
     #if usr_ans.upper == "Q": #Quit
         #print("You have closed the Programme. Goodbye")
