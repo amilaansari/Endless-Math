@@ -8,8 +8,17 @@
 import random
 
 #allow user to set boundaries
-maxValue = input("highest number you wish to work with")
-minValue = input("lowest number you wish to work with")
+highValue = int(input("highest number you wish to work with"))
+lowValue = int(input("lowest number you wish to work with"))
 
 #generate random integers using user input
-num1, num2 = random.randint (int(maxValue), int(minValue))
+num1 = random.randint (lowValue, highValue)
+num2 = random.randint (lowValue, highValue)
+
+#create math question with answer
+if num1>num2:
+    print(num1, "-", num2, "=", num1-num2)
+    
+else:
+    print(num1, "+", num2, "=", num1+num2)
+
