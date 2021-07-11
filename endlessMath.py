@@ -11,14 +11,18 @@ import random
 highValue = int(input("highest number you wish to work with"))
 lowValue = int(input("lowest number you wish to work with"))
 
-#generate random integers using user input
-num1 = random.randint (lowValue, highValue)
-num2 = random.randint (lowValue, highValue)
+#create multiple math question with answer
+qn_no = int(input("How many questions would you like generated?"))
 
-#create math question with answer
-if num1>num2:
-    print(num1, "-", num2, "=", num1-num2)
-    
-else:
-    print(num1, "+", num2, "=", num1+num2)
+for qn in range(qn_no):
+    #generate random integers using user input
+    num1 = random.randint (lowValue, highValue)
+    num2 = random.randint (lowValue, highValue)
+
+    #logic to generate questions and answers
+    if num1>num2:
+        print(num1, "-", num2, "=", num1-num2)
+        
+    else:
+        print(num1, "+", num2, "=", num1+num2)
 
