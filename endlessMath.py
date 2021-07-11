@@ -8,8 +8,8 @@
 import random
 
 #allow user to set boundaries
-highValue = int(input("highest number you wish to work with"))
-lowValue = int(input("lowest number you wish to work with"))
+highValue = int(input("What is the highest number you wish to work with"))
+lowValue = int(input("What is the lowest number you wish to work with"))
 qn_no = int(input("How many questions would you like generated?"))
 
 #create multiple math question with answer
@@ -32,9 +32,9 @@ def question(qn_no):
 
 #let user input answers, match answers to logic
 def answer(sys_ans):
-    usr_ans = int(input ("Input Answer:"))
+    usr_ans = int(input ("Input your Answer:"))
     while usr_ans != sys_ans:
-        print("Incorrect Answer. Try Again or Press 'Q' to Quit")
+        print("Incorrect Answer. Try Again")
         usr_ans = input ("Input Answer:")
     
     #if usr_ans.upper == "Q": #Quit
