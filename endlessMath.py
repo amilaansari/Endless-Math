@@ -21,8 +21,14 @@ for qn in range(qn_no):
 
     #logic to generate questions and answers
     if num1>num2:
-        print(num1, "-", num2, "=", num1-num2)
-        
+        print(num1, "-", num2, "=",)
+        sys_ans = num1-num2
+        print (sys_ans)
+    
     else:
-        print(num1, "+", num2, "=", num1+num2)
+        print(num1, "+", num2, "=",)
+        sys_ans = num1+num2
+        print (sys_ans)
 
+#let user input answers, match answers to logic
+#usr_ans = int(input ("Input answer")
