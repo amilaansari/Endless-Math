@@ -1,2 +1,4 @@
 # MathGames
-Collection of math games for practice mathematics
+Collection of math games to practice mathematics
+
+*i will be getting to this next
