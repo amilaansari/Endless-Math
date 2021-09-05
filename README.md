@@ -3,7 +3,7 @@ A web application intended to allow users to practice simple mathematics “endl
 
 ## Setup
 You will need python 3.x installed.
-Run ~ endlessMath.py ~ in your favourite IDE
+Run `endlessMath.py` in your favourite IDE
 
 ## Overview
 This project began as a way to practice coding in python outside of my studies. I chose to create a mathematics "game” to help my younger siblings practice their mathematics. They are both in their early primaries, and so the mathematics portion of the code did not need to be too complex. Simple addition and subtraction are currently the only functions, but I hope to expand on this in the future.
