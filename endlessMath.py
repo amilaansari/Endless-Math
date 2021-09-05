@@ -1,8 +1,5 @@
-#while loop till exit/how many questions would you like?
-#generate questions and answers
-#if usr_answer == sys_answer, move onto next question
-#else stay on question
-#at the end, total correct answers and ask to play again or exit
+#generate number of questions based on user input
+#if usr_answer == sys_answer, move onto next question, else stay on question
 
 #import random number function
 import random
@@ -12,7 +9,7 @@ highValue = int(input("What is the highest number you wish to work with?"))
 lowValue = int(input("What is the lowest number you wish to work with?"))
 qn_no = int(input("How many questions would you like generated?"))
 
-#create multiple math question with answer
+#create multiple math question with answers
 def question(qn_no):
     for qn in range(qn_no):
         #generate random integers using user input
@@ -42,9 +39,5 @@ def answer(sys_ans):
     else:
         return True
     
-    #if usr_ans.upper == "Q": #Quit
-        #print("You have closed the Programme. Goodbye")
-        #exit()
-
 #run Programme
 question(qn_no)
