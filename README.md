@@ -3,7 +3,7 @@ A web application intended to allow users to practice simple mathematics “endl
 
 ## Setup
 You will need python 3.x installed.
-In the terminal enter `pip install -r requirements.txt`.
+*For ver2.0 ONLY (currently in development)~~In the terminal enter `pip install -r requirements.txt`.~~
 Run `endlessMath.py` in your favourite IDE.
 
 ## Overview
