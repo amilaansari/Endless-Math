@@ -2,7 +2,7 @@
 A web application intended to allow users to practice simple mathematics “endlessly”. 
 
 ## Setup
-*Project is under developement.
+*Project is under development.
 
 ## Overview
 - This project began as a way to practice coding in python outside of my studies. Please see the repository "Python Projects", section "Endless Math" for more details.
