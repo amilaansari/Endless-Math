@@ -16,6 +16,6 @@ A web application intended to allow users to practice simple mathematics “endl
 - Deeply personal goal of mine, I believe its important to cater to individual needs. 
 - Id like to learn about and update my code accordingly to better suit various accessibility requirements.
 
-###### Possible Future Features
+###### Possible Future Features:
 - Allowing for more complex mathematic functions: Multiplication/Division/Fraction etc.
 - Create a server-side database using Flask to save and store user credentials/scores. I could implement a system of trading “points earned” for “rewards”.
