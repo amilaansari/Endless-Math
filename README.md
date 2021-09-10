@@ -2,8 +2,14 @@
 A web application intended to allow users to practice simple mathematics “endlessly”. 
 View the project https://amilaansari.github.io/Endless-Math/
 
+**Current Issues/features (still under development)
+- Equations are printed to console upon start(start button is clicked). They should be displayed on the html
+- Allow users to input answers, then check for accuracy upon submissions
+- Allow users to set their own limits, i.e the values of the numbers they wish to work with (e.g between 10-1/100-1/100-50)
+
 ## Setup
-*Project is under development.
+*Project is under development. It has limited working features and is very likely to break. 
+It is not ready for deployment and users should exercise caution if choosing to do so.*
 
 ## Overview
 - This project began as a way to practice coding in python outside of my studies. Please see the repository "Python Projects", section "Endless Math" for more details.
