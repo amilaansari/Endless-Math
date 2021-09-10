@@ -37,8 +37,8 @@
     <div id="welcome" class="container-fluid">
         <!--Name Input-->
         <input id="user_input_name" name="name" type="text" placeholder="Name">
-        <!--Start Button-->
-        <button id="welcome_btn" type="submit" onclick="welcomeUser()">Welcome</button>
+        <!--Welcome Button-->
+        <button id="welcome_btn" name="welcome" type="submit" onclick="welcomeUser()">Welcome</button>
         <!--Welcome Paragraph-->
         <p id="intro">
             Hi! Input your name to get started
@@ -46,7 +46,24 @@
     </div>
 
     <div id="main" class="container-fluid">
-        <!--JavaScript Game to run here-->
+        Ready to get started? 
+        <!--Top Value Input-->
+        <input id="top_limit" name="highest number" type="text" placeholder="Highest Number">
+        <!--Bottom Value Input-->
+        <input id="bot_limit" name="lowest number" type="text" placeholder="Lowest Number">
+        <!--Start Button-->
+        <button id="start_btn" name="start" type="submit" onclick="startGame()">Start</button>
+        <br>
+        <br>
+        <!--Game-->   
+        <div id="game">
+            <!--JavaScript Game to run here-->
+            <input id="x" name="number 1" type="text"> +
+            <input id="y" name="number 2" type="text"> =
+            <input id="z" name="answer" type="text">
+        </div>
+        <br>
+        <br>
     </div>
     
     <footer>
