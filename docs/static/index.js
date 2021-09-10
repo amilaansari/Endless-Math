@@ -8,7 +8,7 @@ function welcomeUser(){
 }
 
 function startGame(){
-    for (i = 0; i <git5; i++){
+    for (i = 0; i < 5; i++){
     //generate random numbers within limits
     var x = Math.floor((Math.random() * 10)+ 1)
     var y = Math.floor((Math.random() * 10)+ 1)
