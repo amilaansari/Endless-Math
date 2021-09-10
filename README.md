@@ -1,5 +1,6 @@
 # Endless Math
 A web application intended to allow users to practice simple mathematics “endlessly”. 
+View the project https://amilaansari.github.io/Endless-Math/
 
 ## Setup
 *Project is under development.
